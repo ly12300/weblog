@@ -1,0 +1,42 @@
+2025-05-07 16:01:19.053 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_201 on DESKTOP-F6O165R with PID 29124 (D:\desk\website-test\weblog\weblog-springboot\weblog-web\target\classes started by Mayn in D:\desk\website-test\weblog\weblog-springboot)
+2025-05-07 16:01:19.054 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - The following profiles are active: prod
+2025-05-07 16:01:19.513 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-05-07 16:01:19.517 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-07 16:01:19.517 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-05-07 16:01:19.552 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-07 16:01:19.552 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 477 ms
+2025-05-07 16:01:19.729 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-07 16:01:19.733 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 0.954 seconds (JVM running for 1.673)
+2025-05-07 16:01:57.622 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 16:01:57.623 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-07 16:01:57.623 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-07 16:01:57.718 [http-nio-8080-exec-1] INFO  c.yulu.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: BasicController, 请求方法: test =================================== 
+2025-05-07 16:01:57.725 [http-nio-8080-exec-1] INFO  c.yulu.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 13ms, 出参: {"username":"admin","sex":1} =================================== 
+2025-05-07 16:03:38.828 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_201 on DESKTOP-F6O165R with PID 12184 (D:\desk\website-test\weblog\weblog-springboot\weblog-web\target\classes started by Mayn in D:\desk\website-test\weblog\weblog-springboot)
+2025-05-07 16:03:38.829 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - The following profiles are active: prod
+2025-05-07 16:03:39.301 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-05-07 16:03:39.307 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-07 16:03:39.307 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-05-07 16:03:39.349 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-07 16:03:39.350 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 499 ms
+2025-05-07 16:03:39.541 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-07 16:03:39.546 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 0.992 seconds (JVM running for 1.797)
+2025-05-07 16:03:52.130 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 16:03:52.131 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-07 16:03:52.131 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-07 16:03:52.216 [http-nio-8080-exec-1] INFO  c.yulu.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: BasicController, 请求方法: test =================================== 
+2025-05-07 16:03:52.222 [http-nio-8080-exec-1] INFO  c.yulu.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 15ms, 出参: {"username":"admin","sex":1} =================================== 
+[TraceId: ] 2025-05-07 16:06:37.163 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_201 on DESKTOP-F6O165R with PID 33512 (D:\desk\website-test\weblog\weblog-springboot\weblog-web\target\classes started by Mayn in D:\desk\website-test\weblog\weblog-springboot)
+[TraceId: ] 2025-05-07 16:06:37.164 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2025-05-07 16:06:37.625 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2025-05-07 16:06:37.629 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2025-05-07 16:06:37.629 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2025-05-07 16:06:37.664 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2025-05-07 16:06:37.664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 480 ms
+[TraceId: ] 2025-05-07 16:06:37.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2025-05-07 16:06:37.849 [main] INFO  com.yulu.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 0.931 seconds (JVM running for 1.648)
+[TraceId: ] 2025-05-07 16:06:43.818 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2025-05-07 16:06:43.818 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2025-05-07 16:06:43.819 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 02a3958a-2f69-4604-a93b-6682ed8c8b13] 2025-05-07 16:06:43.902 [http-nio-8080-exec-1] INFO  c.yulu.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: BasicController, 请求方法: test =================================== 
+[TraceId: 02a3958a-2f69-4604-a93b-6682ed8c8b13] 2025-05-07 16:06:43.908 [http-nio-8080-exec-1] INFO  c.yulu.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 14ms, 出参: {"username":"admin","sex":1} =================================== 
