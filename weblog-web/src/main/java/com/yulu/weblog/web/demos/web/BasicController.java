@@ -17,16 +17,17 @@
 package com.yulu.weblog.web.demos.web;
 
 import com.yulu.weblog.common.aspect.ApiOperationLog;
+import com.yulu.weblog.common.utils.JsonUtil;
 import com.yulu.weblog.common.utils.Response;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.stream.Collectors;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
@@ -35,21 +36,16 @@ import java.util.stream.Collectors;
 @Slf4j
 public class BasicController {
 
-    @PostMapping("/test")
+    @PostMapping("/admin/test")
     @ApiOperationLog(description = "测试接口")
-    public Response test(@RequestBody @Validated User user, BindingResult bindingResult) {
-        // 是否存在校验错误
-        if (bindingResult.hasErrors()) {
-            // 获取校验不通过字段的提示信息
-            String errorMsg = bindingResult.getFieldErrors()
-                    .stream()
-                    .map(FieldError::getDefaultMessage)
-                    .collect(Collectors.joining(", "));
+    public Response test(@RequestBody @Validated User user) {
+        // 打印入参
+        log.info(JsonUtil.toJsonString(user));
 
-            return Response.fail(errorMsg);
-        }
-
-        // 返参
+        // 设置三种日期字段值
+        user.setCreateTime(LocalDateTime.now());
+        user.setUpdateDate(LocalDate.now());
+        user.setTime(LocalTime.now());
         return Response.success();
     }
 
